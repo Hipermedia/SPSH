@@ -38,7 +38,7 @@ Aquí se definen las variables para el sistema general
 	//Define si paypal se utiliza en sandbox
 	$paypalsandbox = false;
 	//Escribe el email de paypal del cliente
-	$customerpaypalemail = 'pagoseltconsultants@gmail.com';
+	$customerpaypalemail = 'solhipermedia@gmail.com';
 	//Coloca la URL del logo de 150x150 pixeles que aparece en la esquina superior izquierda en la página de pago de paypal
 	$customerpaypallogo = '';
 	//URL a la que son redirigidos los compradores despues de realizar su pago
@@ -58,13 +58,13 @@ Aquí se definen las variables para el sistema general
 	
 	global $encabezado_correo, $nombre_comercio, $direccion_comercio, $telefono_comercio, $correo_contacto_comercio, $correo_replyto_comercio, $sitio_comercio, $fb_fanpage_comercio;	
 	$encabezado_correo = 'http://localhost/shpagos/pago/admin/img/encabezado-correo.jpg';
-	$nombre_comercio = 'ELT Consultants';
+	$nombre_comercio = 'Soluciones Hipermedia';
 	$direccion_comercio = 'Xalapa, Veracruz';
 	$telefono_comercio = '';
-	$correo_contacto_comercio = 'pagoseltconsultants@gmail.com';
-	$correo_replyto_comercio = 'pagoseltconsultants@gmail.com';
+	$correo_contacto_comercio = 'soportehipermedia@gmail.com';
+	$correo_replyto_comercio = 'soportehipermedia@gmail.com';
 	$sitio_comercio = 'http://localhost/shpagos/';
-	$fb_fanpage_comercio = 'https://www.facebook.com/pages/Elt-consultants/119379594777570?fref=ts';
+	$fb_fanpage_comercio = 'http://facebook.com/';
 	
 	/////CREDENCIALES AMAZON SES/////
 
@@ -76,8 +76,8 @@ Aquí se definen las variables para el sistema general
 	$ses_smtp_username = 'AKIAJBXYW7RMDRWVXDBA';
 	$ses_smtp_password = 'AnchG5JB7zM4H4DKcUhFbN3ORYo7kpZGK+alqjV3jIVt';*/
 	
-	$ses_verified_sender = 'pagos@eltconsultants.com.mx';
-	$ses_iam_username = 'ses-smtp-user.pagos-eltconsultants';
-	$ses_smtp_username = 'AKIAJY753WJWYSCB3W4Q';
-	$ses_smtp_password = 'Ahwyz3hscFiN6lXe11DjjBPYIo7sc/r25BDfknVygZQv';
+	$ses_verified_sender = 'servicio.de.correo@solucioneshipermedia.com';
+	$ses_iam_username = 'ses-smtp-user.pagos';
+	$ses_smtp_username = 'AKIAJBXYW7RMDRWVXDBA';
+	$ses_smtp_password = 'AnchG5JB7zM4H4DKcUhFbN3ORYo7kpZGK+alqjV3jIVt';
 ?>
